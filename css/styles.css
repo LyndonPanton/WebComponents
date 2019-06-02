@@ -27,6 +27,61 @@ header {
 
 
 /* Main */
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.section-inner {
+	background-color: #FAA6FF;
+}
+
+.section-outer {
+	background-color: #F6C9FF;
+	color: black;
+}
+
+#voice {
+	display: flex;
+	flex-direction: row;
+}
+
+#voice-player {
+	flex: 1;
+	border-right: 2px black solid;
+}
+
+#voice-player-submit {
+	display: block;
+	margin: 10px auto;
+	border: 2px yellow solid;
+	border-radius: 6px;
+	padding: 10px 30px;
+	background-color: steelblue;
+	font-size: 1.0em;
+	color: white;
+}
+
+#voice-player-submit:active {
+	border-color: steelblue;
+	background-color: yellow;
+	color: black;
+}
+
+#voice-player-text {
+	display: block;
+	margin: 0 auto;
+	border: 1px #7353BA solid;
+	border-radius: 8px;
+	min-width: 200px;
+	min-height: 40px;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+#voice-recognition {
+	flex: 1;
+}
 
 
 
