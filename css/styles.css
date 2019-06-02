@@ -83,6 +83,37 @@ h2 {
 	flex: 1;
 }
 
+#voice-recognition-output {
+	display: block;
+	margin: 0 auto;
+	border: 1px #7353BA solid;
+	border-radius: 8px;
+	text-align: center;
+	font-family: monospace;
+}
+
+#voice-recognition-start {
+	display: block;
+	margin: 10px auto;
+	border: 2px purple solid;
+	border-radius: 6px;
+	padding: 10px 30px;
+	background-color: indianred;
+	font-size: 1.0em;
+	color: white;
+}
+
+#voice-recognition-stop {
+	display: block;
+	margin: 10px auto;
+	border: 2px purple solid;
+	border-radius: 6px;
+	padding: 10px 30px;
+	background-color: indianred;
+	font-size: 1.0em;
+	color: white;
+}
+
 
 
 /* Footer */
