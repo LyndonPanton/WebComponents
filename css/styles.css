@@ -15,7 +15,15 @@ body, html {
 
 
 /* Header */
+h1 {
+	margin: 0;
+	padding: 10px 0;
+}
 
+header {
+	background-color: #7353BA;
+	text-align: center;
+}
 
 
 /* Main */
